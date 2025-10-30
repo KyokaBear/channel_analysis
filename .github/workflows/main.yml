@@ -36,6 +36,12 @@ jobs:
           node-version: 18 # 你也可以用 20
       - name: Install dependencies
         run: npm install
+
+      # --- 这就是加上的修复步骤 ---
+      - name: Fix script permissions
+        run: chmod +x ./node_modules/.bin/*
+      # --------------------------
+
       - name: Build
         run: npm run build # 这会运行 vite build
       - name: Setup Pages
