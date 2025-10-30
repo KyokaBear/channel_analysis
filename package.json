@@ -1,0 +1,26 @@
+{
+  "name": "channel-analysis",
+  "version": "1.0.0",
+  "description": "全渠道漏斗分析系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.8.0",
+    "lucide-react": "^0.294.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
+  },
+  "keywords": ["react", "data-analysis", "charts"],
+  "author": "",
+  "license": "MIT"
+}
